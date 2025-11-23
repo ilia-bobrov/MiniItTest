@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67eea7672e404f14a1b363277836bb94, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: Game::Game.Configs.Config
+  <Background>k__BackingField:
+    <MinVelocity>k__BackingField: {x: 0.1, y: 0.1}
+    <MaxVelocity>k__BackingField: {x: 0.3, y: 0.3}
+    <MainMenuMainColor>k__BackingField: {r: 0.17254902, g: 0.85882354, b: 0.6392157, a: 1}
+    <MainMenuSpriteColor>k__BackingField: {r: 0.16862746, g: 0.6313726, b: 0.48235294, a: 1}
+    <Match3MainColor>k__BackingField: {r: 0.9137255, g: 0.27450982, b: 0.2627451, a: 1}
+    <Match3SpriteColor>k__BackingField: {r: 0.6313726, g: 0.2, b: 0.16862746, a: 1}
+    <MergeMainColor>k__BackingField: {r: 0.9137255, g: 0.7490196, b: 0.2627451, a: 1}
+    <MergeSpriteColor>k__BackingField: {r: 0.85882354, g: 0.6, b: 0.10980392, a: 1}
+    <ArkanoidMainColor>k__BackingField: {r: 0.38039216, g: 0.60784316, b: 0.8862745, a: 1}
+    <ArkanoidSpriteColor>k__BackingField: {r: 0.09411765, g: 0.40784314, b: 0.78431374, a: 1}
+  <Match3Config>k__BackingField: {fileID: 0}
+  <MergeConfig>k__BackingField: {fileID: 11400000, guid: fdb436cecdc037d4dbad7ebecaa4e780, type: 2}
+  <ArkanoidConfig>k__BackingField: {fileID: 0}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a468f21640364ab4a5bee55bf781a76e, type: 3}
+  m_Name: Assets
+  m_EditorClassIdentifier: Game::Game.Configs.Assets
+  <BackgroundView>k__BackingField: {fileID: 8249425433967928543, guid: f82237d2b39e01e48b22faad3954f678, type: 3}
+  <BackgroundSprites>k__BackingField:
+    <MainMenuSprite>k__BackingField: {fileID: 2800000, guid: b2916c5867e116842818033a6ad94ce1, type: 3}
+    <Match3Sprite>k__BackingField: {fileID: 2800000, guid: 71a07f1321d1fcf419506d67be39ce25, type: 3}
+    <MergeSprite>k__BackingField: {fileID: 2800000, guid: 00d848c03b1a01443a9c14cee3c91b06, type: 3}
+    <ArkanoidSprite>k__BackingField: {fileID: 2800000, guid: a6f107941af9b2a4998f07a33858c866, type: 3}
+  <MainMenuScreenView>k__BackingField: {fileID: 8846332279209079030, guid: 39436f9635c030a49bc704bd0c27dbc7, type: 3}
+  <GridView>k__BackingField: {fileID: 6375967832183789300, guid: ee24fe0864cb21a43a9c9ed3817cefb5, type: 3}
+  <ItemView>k__BackingField: {fileID: 1586596340304297928, guid: 910bc0bce29807f4eb6b1885206f8003, type: 3}
+  <ItemSprites>k__BackingField:
+  - {fileID: 21300000, guid: 7b5749caa8471804c85a49b7e657d868, type: 3}
+  - {fileID: 21300000, guid: 41d33c13110fa8b4289fd5f38e73238d, type: 3}
+  - {fileID: 21300000, guid: 38139180673fb414aaa218cf77dcf47d, type: 3}
+  - {fileID: 21300000, guid: c721679bb6e72b141b614331a49cb6e5, type: 3}
+  - {fileID: 21300000, guid: 0f21c5b5b3d98c5459d579862af87117, type: 3}
+  <MergeScreenView>k__BackingField: {fileID: 6392538237346734182, guid: e001a7e3e5b1218489d17fdb9ecc3362, type: 3}
