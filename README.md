@@ -4,3 +4,5 @@
 Платформа Android.<br />
 Запуск со сцены "Assets\Game\Scenes\Preload".
 
+Реализована мини-игра Merge.
+
