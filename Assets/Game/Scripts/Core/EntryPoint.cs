@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Game.Core
 {
-public sealed class UnityEntry : MonoBehaviour
+public sealed class EntryPoint : MonoBehaviour
 {
     [SerializeField] private Config _config;
     [SerializeField] private Assets _assets;
