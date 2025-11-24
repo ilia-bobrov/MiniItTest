@@ -73,8 +73,11 @@ public class InputSystem : ISystem
 
         if (_playerInput.MergeInput.IsExit)
         {
-            _events.ChangeGlobalState.IsChange = true;
-            _events.ChangeGlobalState.State = EGlobalState.MainMenu;
+            _events.ChangeGlobalState = new Events.ChangeGlobalStateEvent
+            {
+                IsChange = true,
+                State = EGlobalState.MainMenu
+            };
         }
     }
 

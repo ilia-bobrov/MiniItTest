@@ -34,8 +34,11 @@ public class InputSystem : ISystem
         }
         else if (_playerInput.MainMenu.IsMerge)
         {
-            _events.ChangeGlobalState.IsChange = true;
-            _events.ChangeGlobalState.State = EGlobalState.Merge;
+            _events.ChangeGlobalState = new Events.ChangeGlobalStateEvent
+            {
+                IsChange = true,
+                State = EGlobalState.Merge
+            };
         }
     }
 
